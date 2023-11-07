@@ -1,0 +1,5 @@
+package com.pkwebdeveloper.service;
+
+public interface Company1Service {
+
+}

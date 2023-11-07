@@ -1,0 +1,9 @@
+package com.pkwebdeveloper.service;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(url="http://localhost:8182", value="FoodCompany")
+public interface OpenFeignClientCompanyForFoodCompany {
+
+		
+}

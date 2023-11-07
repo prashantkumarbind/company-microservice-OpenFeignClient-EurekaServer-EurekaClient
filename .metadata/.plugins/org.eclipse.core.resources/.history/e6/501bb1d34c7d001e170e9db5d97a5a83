@@ -1,0 +1,17 @@
+package com.pkwebdeveloper.entity;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class VehicleCompany {
+
+	@Value("MANOJ VEHICLE NEW COMPANY")
+	private String companyName;
+	@Value("GUJARAJ NEW CITY")
+	private String companyAddress;
+	@Value("3344455")
+	private int companyRegistrationNo;
+	@Value("MANOJ KUMAR CHAUDHARI")
+	private String companyfManager;
+	@Value("Vehical Company")
+	private String companyWork;
+}

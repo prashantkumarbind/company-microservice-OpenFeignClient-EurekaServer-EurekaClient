@@ -1,0 +1,13 @@
+package com.pkwebdeveloper.entity;
+
+
+public class LightCompany {
+
+		
+		private String companyName="SURAJ NEW LIGHT COMPANY";
+		private String companyAddress="PRAYAGRAJ JUNCTION";
+		private int companyRegistrationNo=124410;
+		private String companyfManager="SURAJ SINGH PATEL";
+		private String companyWork="Light Company";
+		
+}

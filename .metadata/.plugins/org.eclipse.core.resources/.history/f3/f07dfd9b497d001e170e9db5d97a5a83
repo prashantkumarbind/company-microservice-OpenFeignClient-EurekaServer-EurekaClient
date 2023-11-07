@@ -1,0 +1,17 @@
+package com.pkwebdeveloper.entity;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class FoodCompany {
+
+	@Value("KARAN NEW FOOD COMPANY")
+	private String companyName;
+	@Value("MUMBAI MAHARAKSHTRA")
+	private String companyAddress;
+	@Value("12442001")
+	private int companyRegistrationNo;
+	@Value("KARAN KUMAR JAISWAL")
+	private String companyfManager;
+	@Value("FOOD Company")
+	private String companyWork;
+}

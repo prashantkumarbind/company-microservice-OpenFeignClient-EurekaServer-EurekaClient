@@ -1,0 +1,52 @@
+package com.pkwebdeveloper.entity;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class VehicleCompany {
+
+	@Value("MANOJ VEHICLE NEW COMPANY")
+	private String companyName;
+	@Value("GUJARAJ NEW CITY")
+	private String companyAddress;
+	@Value("3344455")
+	private int companyRegistrationNo;
+	@Value("MANOJ KUMAR CHAUDHARI")
+	private String companyfManager;
+	@Value("Vehical Company")
+	private String companyWork;
+	
+	
+	public String getCompanyName() {
+		return companyName;
+	}
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+	public String getCompanyAddress() {
+		return companyAddress;
+	}
+	public void setCompanyAddress(String companyAddress) {
+		this.companyAddress = companyAddress;
+	}
+	public int getCompanyRegistrationNo() {
+		return companyRegistrationNo;
+	}
+	public void setCompanyRegistrationNo(int companyRegistrationNo) {
+		this.companyRegistrationNo = companyRegistrationNo;
+	}
+	public String getCompanyfManager() {
+		return companyfManager;
+	}
+	public void setCompanyfManager(String companyfManager) {
+		this.companyfManager = companyfManager;
+	}
+	public String getCompanyWork() {
+		return companyWork;
+	}
+	public void setCompanyWork(String companyWork) {
+		this.companyWork = companyWork;
+	}
+	
+	
+	
+}

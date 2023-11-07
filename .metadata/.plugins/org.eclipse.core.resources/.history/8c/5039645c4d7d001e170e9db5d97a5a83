@@ -1,0 +1,5 @@
+package com.pkwebdeveloper.serviceimpl;
+
+public class VehicleCompanyServiceImpl {
+
+}

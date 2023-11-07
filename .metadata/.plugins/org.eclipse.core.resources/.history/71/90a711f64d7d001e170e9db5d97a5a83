@@ -1,0 +1,16 @@
+package com.pkwebdeveloper.serviceimpl;
+
+import org.springframework.stereotype.Component;
+
+import com.pkwebdeveloper.entity.FoodCompany;
+import com.pkwebdeveloper.service.FoodCompanyService;
+
+@Component
+public class FoodCompanyServiceImpl implements FoodCompanyService{
+
+	@Override
+	public FoodCompany getObject() {
+		FoodCompany food = new FoodCompany();
+		return food;
+	}	
+}
